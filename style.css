@@ -1,0 +1,263 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.carousel-my img {
+    height: 45em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    padding: 0 .5em;
+    font-size: 1.5em;
+}
+
+.logo span {
+    font-size: 1.2em;
+}
+
+.SecCards {
+    background-color: rgb(153, 153, 153);
+}
+
+.card img {
+    height: 20em;
+    transition: .3s;
+    margin-top: .7em;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    padding: 1.5em 0;
+}
+
+.tables {
+    display: flex;
+    justify-content: center;
+    padding: 1.5em 0;
+}
+
+.tables h1 {
+    color: aliceblue;
+    padding: .5em 0;
+    padding-left: .4em;
+}
+
+#details h1 {
+    padding: .5em 0;
+    padding-top: 1em;
+}
+
+.descricao-my {
+    padding: 2em 0;
+}
+
+
+/*#region info*/
+#info {
+    padding: 2em 0;
+}
+
+#info h2 {
+    padding: .6em 0;
+    color: aliceblue;
+}
+
+#info p {
+    color: aliceblue;
+}
+
+#info-numbers {
+    margin: 1.5em 0;
+}
+
+#info-banner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+#info-numbers h3 {
+    font-size: 3em;
+}
+
+#info-content {
+    padding: 3em 2em;
+}
+
+.mural-my {
+    background-color: rgba(159, 159, 159, 0.286);
+    padding: 2em;
+}
+
+.mural-my h2 {
+    color: aliceblue;
+}
+
+.mural-my h3 {
+    color: aliceblue;
+}
+
+.mural-my p {
+    color: aliceblue;
+}
+
+
+/*#endregion*/
+
+/*#region footer*/
+#footer {
+    padding: 3em 2em;
+}
+
+#footer-top {
+    margin-bottom: 2em;
+}
+
+#footer-top,
+#footer-top i {
+    color: #fff;
+}
+
+#social-icons {
+    text-align: right;
+}
+
+#social-icons i {
+    margin-right: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#social-icons i:hover {
+    color: #7a7a7a;
+}
+
+/* FOOTER DETAILS */
+#footer-details {
+    margin-bottom: 3em;
+}
+
+#news-container,
+#contact-container,
+#links-container {
+    padding: 0;
+    border: 0;
+    margin-bottom: 2em;
+}
+
+#footer-details h4 {
+    color: #fff;
+    margin-bottom: 1.5em;
+}
+
+#news-container input {
+    border-radius: 0;
+    border: none;
+}
+
+#links-container li {
+    margin-bottom: 0.5em;
+}
+
+#links-container a {
+    text-decoration: none;
+}
+
+#links-container a:hover {
+    color: #fff;
+}
+
+/* FOOTER BOTTOM */
+#footer-bottom {
+    border-top: 1px solid #7a7a7a;
+    padding-top: 2em;
+}
+
+#footer-bottom i {
+    color: #f7cd00;
+}
+
+#news-container {
+    padding-right: 2em;
+}
+
+#contact-container {
+    padding: 0 2em;
+    border-left: 1px solid #7a7a7a;
+    border-right: 1px solid #7a7a7a;
+}
+
+#links-container {
+    padding-left: 2em;
+}
+
+/*#endregion*/
+
+
+/*backgrounds color*/
+.bg-primary-color {
+    background-color: white;
+}
+
+.bg-secondary-color {
+    background-color: #ece8ea;
+}
+
+.bg-dark-color {
+    background-color: #050505;
+}
+
+/*font color*/
+.primary-color {
+    color: #050505;
+}
+
+.secondary-color {
+    color: #7a7a7a;
+}
+
+.contact-my {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 90vh;
+    padding: 10em;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.contact-my h1 {
+    font-size: 3em;
+    padding: .6em 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-my input,
+.contact-my textarea {
+    margin-bottom: 2em;
+    font-size: 1em;
+    color: #7a7a7a;
+}
+
+.contact-my textarea {
+    resize: none;
+}
+
+.voltar {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: 20vh;
+    width: 18%;
+    padding: .8em 0;
+}
+
+
